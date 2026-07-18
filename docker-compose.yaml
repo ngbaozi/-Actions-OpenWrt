@@ -28,7 +28,7 @@ services:
       - --halo.security.initializer.superadminpassword=wcb123456L0.
 
   halodb:
-    image: mysql:9.7.1
+    image: mysql:8.0.31
     container_name: halodb
     restart: on-failure:3
     networks:
